@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    background-color: #3E2723;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container Box */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #5D4037;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Paragraphs & Text */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* List Styling */
+ul {
+    text-align: left;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Buttons */
+.btn, .update-btn {
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Red Button (YouTube Link) */
+.btn {
+    background-color: #D32F2F;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #B71C1C;
+}
+
+/* Yellow Button (Update Video) */
+.update-btn {
+    background-color: #FFD54F;
+    color: black;
+}
+
+.update-btn:hover {
+    background-color: #FFCA28;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5D4037;
+    color: white;
+}
